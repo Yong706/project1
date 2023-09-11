@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cash Payment Simulator</title>
+</head>
+<body>
+  <header>
+    <h1>Cash Payment Simulator</h1>
+  </header>
+  <main>
+    <div id="question-container">
+      <p id="question">Question: RM 0.00</p>
+    </div>
+    <div id="denominations-container">
+      <button class="money-denomination" id="rm1-button">RM1</button>
+      <button class="money-denomination" id="rm5-button">RM5</button>
+      <button class="money-denomination" id="rm10-button">RM10</button>
+      <button class="money-denomination" id="rm20-button">RM20</button>
+      <button class="money-denomination" id="cents10-button">10 cents</button>
+    </div>
+    <p id="total-amount">Total: RM 0.00</p>
+  </main>
+  <footer>
+    <p id="feedback"></p>
+    <button id="reset-button">Next Question</button>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
